@@ -1,16 +1,33 @@
-## Hi there 👋
+# Данис Салимов
 
-<!--
-**salimadze2005-beep/salimadze2005-beep** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Vision / ML Engineer.
 
-Here are some ideas to get you started:
+Занимаюсь прикладными задачами компьютерного зрения: детекцией и сегментацией объектов, оценкой позы, OCR, обработкой видео в реальном времени и оптимизацией моделей для запуска на GPU и edge-устройствах.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Учусь на 3 курсе УУНиТ по направлению «Информационные системы и технологии».
+
+## Проекты
+
+- **[Detector Dangerous](https://github.com/salimadze2005-beep/Detector_dangerous)** - коммерческая система мониторинга потенциально опасных событий по видео и аудио. Работал над обнаружением падений и длительного горизонтального положения человека, обработкой нескольких камер, настройкой порогов срабатывания и интеграцией моделей в рабочее приложение.
+
+- **[Camera Timestamp Auditor](https://github.com/salimadze2005-beep/Camera_Timestamp_Auditor)** - проект, выполненный во время производственной практики в АО «Уфанет». Система распознаёт дату и время на кадрах камер наблюдения, исправляет типичные ошибки OCR и проверяет полученное время с учётом часового пояса.
+
+- **[Autonomous Mobile Platform](https://github.com/salimadze2005-beep/car_control_project_new_Danis)** - система компьютерного зрения и навигации для автономной мобильной платформы на NVIDIA Jetson Xavier. Работал над детекцией объектов, построением траектории, обработкой кадров и оптимизацией производительности.
+
+- **[Plants Verification Size](https://github.com/salimadze2005-beep/Plants_classificator)** - система для классификации и сегментации растений. По сегментационным маскам рассчитываются площадь и линейные размеры отдельных частей растения.
+
+## Технологии
+
+**Computer Vision / ML:**  
+Python · PyTorch · OpenCV · Ultralytics YOLO · YOLO-Pose · U-Net · EasyOCR · PaddleOCR · NumPy
+
+**Оптимизация и запуск моделей:**  
+ONNX · TensorRT · CUDA · PyCUDA · NVIDIA Jetson Xavier
+
+**Видео и оборудование:**  
+RTSP · ZED Camera
+
+**Разработка:**  
+FastAPI · SQLite · Git · Linux · REST API
+
+В первую очередь интересуют задачи, связанные с Computer Vision, видеоаналитикой в реальном времени и оптимизацией моделей для практического применения.
